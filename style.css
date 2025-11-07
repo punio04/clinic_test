@@ -1,0 +1,73 @@
+.title01 {
+  margin-bottom: 8px;
+}
+
+.elementor-image {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.step_img {
+  width: 500px;
+}
+
+.section_banner {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 50px;
+}
+
+.sp {
+  display: none;
+}
+
+.pc {
+  display: block;
+}
+
+.main-title p {
+  font-size: 34px;
+  line-height: 1.7;
+  text-align: center;
+  font-family: "秀英丸ゴシック B", "Shuei MaruGo B";
+}
+
+.under_title_h5 h5 {
+  padding-left: 0px!important;
+}
+
+@media screen and (max-width: 767px) {
+
+  .main-title p {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  #footer .footer_sitemap {
+    font-size: 10px;
+    margin-top: 212px;
+    color: #fff;
+    bottom: auto;
+  }
+
+  .elementor-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .step_img {
+    width: 100%;
+  }
+}
