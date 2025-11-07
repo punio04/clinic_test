@@ -33,7 +33,7 @@
   line-height: 1.7;
   text-align: center;
   font-family: "秀英丸ゴシック B", "Shuei MaruGo B";
-  font-weight: 600;
+  font-weight: 600!important;
 }
 
 .under_title_h5 h5 {
@@ -41,15 +41,19 @@
 }
 
 .under_title_h4 h4 {
-  font-weight: 600;
+  font-weight: 600!important;
 }
 
 .under_mainimage .container h2 {
-  font-weight: 600;
+  font-weight: 600!important;
 }
 
 .under_title_h3 h3 {
-  font-weight: 600;
+  font-weight: 600!important;
+}
+
+.qa_list dt .txt {
+  font-weight: bold!important;
 }
 
 @media screen and (max-width: 767px) {
