@@ -122,6 +122,22 @@
     width: 100% !important;
     height: auto !important;
   }
+
+  .flowList.flowList_step .flow_title {
+    padding-left: 95px;
+  }
+
+  .flowList .flow_title {
+    line-height: 1.4;
+    overflow: hidden;
+    letter-spacing: 0.02em;
+    padding-top: 4px;
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+  }
 }
 
 
@@ -130,5 +146,17 @@ html {
 }
 
 body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+.under_mainimage .container h2 {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+.main-title p {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+.under_title_h3 h3 {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
 }
