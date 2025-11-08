@@ -33,7 +33,7 @@
   line-height: 1.7;
   text-align: center;
   font-family: "秀英丸ゴシック B", "Shuei MaruGo B";
-  font-weight: 600!important;
+  font-weight: 600 !important;
 }
 
 .under_title_h5 h5 {
@@ -41,19 +41,19 @@
 }
 
 .under_title_h4 h4 {
-  font-weight: 600!important;
+  font-weight: 600 !important;
 }
 
 .under_mainimage .container h2 {
-  font-weight: 600!important;
+  font-weight: 600 !important;
 }
 
 .under_title_h3 h3 {
-  font-weight: 600!important;
+  font-weight: 600 !important;
 }
 
 .qa_list dt .txt {
-  font-weight: bold!important;
+  font-weight: bold !important;
 }
 
 @media screen and (max-width: 767px) {
@@ -79,6 +79,11 @@
     bottom: auto;
   }
 
+  table {
+    width: 800px;
+    min-width: 700px;
+  }
+
   .elementor-image {
     display: flex;
     justify-content: center;
@@ -86,5 +91,35 @@
 
   .step_img {
     width: 100%;
+  }
+
+  .elementor-row {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+
+  section[data-id="00a163d"] .elementor-container>div {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  section[data-id="00a163d"] .elementor-column {
+    width: 48% !important;
+    margin-bottom: 20px !important;
+    margin: 0 auto;
+  }
+
+  section[data-id="00a163d"] img {
+    width: 100% !important;
+    height: auto !important;
   }
 }
