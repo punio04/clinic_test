@@ -136,27 +136,60 @@
     padding-left: 50px;
     padding-bottom: 13px;
     font-size: 20px;
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif,
+      "秀英丸ゴシック B",
+      "Shuei MaruGo B";
   }
 }
 
 
 html {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif, "秀英丸ゴシック B", "Shuei MaruGo B";
 }
 
 body {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif, "秀英丸ゴシック B", "Shuei MaruGo B";
 }
 
 .under_mainimage .container h2 {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif,
+    "秀英丸ゴシック B",
+    "Shuei MaruGo B";
 }
 
 .main-title p {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif,
+    "秀英丸ゴシック B",
+    "Shuei MaruGo B";
 }
 
 .under_title_h3 h3 {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif,
+    "秀英丸ゴシック B",
+    "Shuei MaruGo B";
+}
+
+.under_title_h4 h4 {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif,
+    "秀英丸ゴシック B",
+    "Shuei MaruGo B";
+}
+
+.under_title_h5 h5 {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif,
+    "秀英丸ゴシック B",
+    "Shuei MaruGo B";
+}
+
+.qa_list dt .txt {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif,
+    "秀英丸ゴシック B",
+    "Shuei MaruGo B";
+}
+
+#header .header_menu .g_nav>li>a,
+#header .header_menu .g_nav>li>span {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif,
+    "秀英丸ゴシック B",
+    "Shuei MaruGo B";
 }
